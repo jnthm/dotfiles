@@ -1,0 +1,48 @@
+;; -*- emacs-lisp -*- <16/06/17 12:05:33 /Users/jmettu/.emacs.d/tramp>
+;; Tramp connection history.  Don't change this file.
+;; You can delete it, forcing Tramp to reapply the checks.
+
+((["sudo" "root" "jmettu-mbr15.local" nil nil]
+  ("locale" "LC_ALL=C")
+  ("uname" "Darwin 14.5.0")
+  ("test" "test")
+  ("remote-path"
+   ("/usr/bin" "/bin" "/usr/sbin" "/sbin" "/usr/local/bin"))
+  ("remote-shell" "/bin/sh")
+  ("file-exists" "test -e")
+  ("readlink" nil)
+  ("perl-file-spec" t)
+  ("perl-cwd-realpath" t)
+  ("perl" "\\perl")
+  ("stat" nil)
+  ("ls" "/bin/ls")
+  ("id" "/usr/bin/id")
+  ("uid-integer" 0)
+  ("gid-integer" 0)
+  ("gid-string" "wheel")
+  ("tmpdir" "/sudo:root@jmettu-mbr15.local:/tmp")
+  ("touch-t" t)
+  ("touch" "\\touch"))
+ (["sudo" "root" "jmettu-MBR15" nil nil]
+  ("locale" "LC_ALL=C")
+  ("uname" "Darwin 14.5.0")
+  ("test" "test")
+  ("remote-path"
+   ("/usr/bin" "/bin" "/usr/sbin" "/sbin" "/usr/local/bin"))
+  ("remote-shell" "/bin/sh")
+  ("file-exists" "test -e")
+  ("perl-file-spec" t)
+  ("perl-cwd-realpath" t)
+  ("perl" "\\perl")
+  ("readlink" nil)
+  ("stat" nil)
+  ("id" "/usr/bin/id")
+  ("gid-integer" 0)
+  ("gid-string" "wheel")
+  ("uid-integer" 0)
+  ("tmpdir" "/sudo:root@jmettu-MBR15:/tmp")
+  ("touch-t" t)
+  ("touch" "\\touch")
+  ("ls" "/bin/ls"))
+ (["scp" nil "sudo" nil nil]
+  nil))
